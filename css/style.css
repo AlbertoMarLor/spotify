@@ -6,3 +6,39 @@ img {
     display: block;
 
 }
+
+
+
+header {
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    height: 3vh;
+    padding: 30px;
+    font-weight: bold;
+
+}
+
+header i {
+    font-size: 1.5em
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+
+}
+
+header nav li {
+    display: inline;
+    padding: 30px;
+
+
+
+}
