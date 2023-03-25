@@ -1,5 +1,12 @@
 @import url(reset.css);
 
+:root {
+    --fuenteprincipal: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --containerMobile: 95%;
+    --containerDesktop: 1100px
+}
+
+
 img {
     width: 100%;
     height: auto;
@@ -11,18 +18,23 @@ img {
 
 header {
     background-color: black;
+
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    justify-content: space-around;
+    font-family: var(--fuenteprincipal);
     height: 3vh;
-    padding: 30px;
+    padding: 16px;
     font-weight: bold;
+
 
 }
 
+header div:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+
 header i {
-    font-size: 1.5em
+    font-size: 1.25em
 }
 
 header a {
@@ -30,15 +42,163 @@ header a {
     text-decoration: none;
 }
 
+header .hamburguesa div {
+    transform: translateX(300px);
+    border-top: 3px solid #fbf9f9;
+    margin-bottom: 4px;
+    width: 22.5px;
+
+}
+
 .menu {
-    display: flex;
+    display: none;
 
 }
 
 header nav li {
-    display: inline;
-    padding: 30px;
+    display: none;
+
 
 }
 
-.container {}
+.hero {
+
+    font-family: var(--fuenteprincipal);
+    background-color: rgb(63, 137, 216);
+    color: white;
+
+}
+
+.container {
+    max-width: var(--containerMobile);
+    margin: 0 auto;
+}
+
+h1 {
+
+    font-size: 1.75em;
+    font-weight: bolder;
+    padding: 50px 0 0;
+
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: bolder;
+    margin: 50px 0;
+}
+
+.hero {
+    padding-bottom: 80px;
+}
+
+.hero li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.851);
+    padding: 17.5px;
+    border-radius: 25px;
+    margin-top: 7px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.hero li:last-child a {
+
+    background-color: transparent;
+    border: 2px solid white;
+    margin-bottom: 60px;
+}
+
+
+.hero li a:hover {
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.025);
+}
+
+.hero li:last-child a:hover {
+    background-color: rgb(30, 108, 190);
+    transform: scale(1.025);
+}
+
+.hero small {
+    font-size: 0.75em;
+
+}
+
+.hero small a {
+
+    color: white;
+}
+
+@media(min-width: 48.000em) {
+
+
+    header .hamburguesa {
+        display: none;
+
+
+    }
+
+    header div:first-child {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .menu {
+        transform: translateX(400px);
+        display: flex;
+    }
+
+    header nav li {
+
+
+        display: inline;
+        margin: 0 12px;
+
+    }
+
+    header .border {
+        border-left: 2px solid rgba(255, 255, 255, 0.635);
+        margin: 0 15px
+    }
+
+    .container {
+
+        max-width: var(--containerDesktop);
+        margin: 0 auto;
+
+    }
+
+    h1 {
+
+        font-size: 2.5em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+
+    .hero ul {
+        display: flex;
+        gap: 10px;
+    }
+
+    .hero li a {
+
+        width: 125px;
+        padding: 20px;
+
+    }
+
+    .hero li:last-child a {
+
+
+        padding: 17.5px;
+
+    }
+
+}
