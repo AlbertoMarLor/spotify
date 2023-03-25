@@ -136,7 +136,7 @@ h1 {
 
 .uno {
     font-family: var(--fuenteprincipal);
-    padding-bottom: 100px;
+    padding-bottom: 60px;
 }
 
 .uno h2 {
@@ -171,6 +171,62 @@ h1 {
 
 
 /* FIN SECCION 1 */
+
+/* INICIO SECCION 2 */
+
+.dos {
+    font-family: var(--fuenteprincipal);
+    background-color: rgb(234, 234, 234);
+    padding: 20px 0;
+}
+
+.dos h2 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dos div p {
+    margin: 20px 0 70px 0;
+}
+
+.dos article {
+    border: 1px 1px 5px solid black;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.367);
+    position: relative;
+
+}
+
+.dos article p:first-child {
+    display: block;
+    color: white;
+    background-color: rgb(30, 108, 190);
+    ;
+    width: 100px;
+    border-radius: 2.5px;
+    padding: 5px 1px;
+    text-align: center;
+    font-weight: bolder;
+    margin: 20px;
+    position: absolute;
+}
+
+.dos h3 {
+
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 60px 0 0 20px;
+}
+
+.dos article p {
+
+    margin: 10px 0 10px 20px;
+
+}
+
+/* FIN SECCION 2 */
 
 @media(min-width: 48.000em) {
 
