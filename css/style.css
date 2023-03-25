@@ -82,7 +82,7 @@ h1 {
 
 }
 
-h3 {
+.hero h3 {
     font-size: 1em;
     font-weight: bolder;
     margin: 50px 0;
@@ -131,6 +131,46 @@ h3 {
 
     color: white;
 }
+
+/* INICIO SECCION 1 */
+
+.uno {
+    font-family: var(--fuenteprincipal);
+    padding-bottom: 100px;
+}
+
+.uno h2 {
+
+    font-weight: bolder;
+    font-size: 1.75em;
+    margin: 35px 0;
+    text-align: center;
+
+}
+
+.uno figure {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.uno img {
+
+    width: 30%;
+}
+
+.uno h3 {
+
+    font-size: 1.25em;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.uno p {
+    margin-top: 10px;
+}
+
+
+/* FIN SECCION 1 */
 
 @media(min-width: 48.000em) {
 
@@ -201,4 +241,20 @@ h3 {
 
     }
 
+    .uno h2 {
+        font-size: 2.5em;
+    }
+
+    .uno article {
+        display: flex;
+    }
+
+    .uno img {
+        width: 100%;
+    }
+
+    .uno figure {
+        display: block;
+
+    }
 }
