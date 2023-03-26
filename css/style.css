@@ -285,6 +285,7 @@ footer {
     color: white;
     font-family: var(--fuenteprincipal);
     padding-bottom: 5px;
+    position: relative;
 }
 
 footer i {
@@ -292,10 +293,17 @@ footer i {
     margin: 50px 0;
 }
 
+footer span {
+    position: absolute;
+    top: 6%;
+    left: 9%;
+    font-weight: bolder;
+}
+
 footer h5 {
     color: grey;
     font-weight: 500;
-    margin: 50px 0;
+    margin: 20px 0;
 }
 
 footer nav li {
@@ -500,6 +508,8 @@ footer .abajo div:last-child p {
     footer .topfooter {
         display: flex;
         gap: 70px;
+        transform: translateX(70px);
+        margin-top: 50px;
 
     }
 
@@ -520,5 +530,16 @@ footer .abajo div:last-child p {
 
     footer .abajo nav {
         display: flex;
+        gap: 17.5px;
     }
+
+
+    footer span {
+
+        top: 15%;
+        left: 23%;
+
+    }
+
+
 }
