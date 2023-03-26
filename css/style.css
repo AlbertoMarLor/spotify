@@ -269,6 +269,7 @@ h1 {
     color: gray;
     margin-left: 20px;
     padding-bottom: 20px;
+
 }
 
 .dos small a {
@@ -365,6 +366,7 @@ footer .abajo div:last-child i {
 
 footer .abajo div:last-child p {
     margin-left: 17.5px;
+
 }
 
 
@@ -397,6 +399,11 @@ footer .abajo div:last-child p {
         display: inline;
         margin: 0 12px;
 
+    }
+
+    header nav li a:hover {
+
+        color: #1DB954;
     }
 
     header .border {
@@ -479,7 +486,39 @@ footer .abajo div:last-child p {
         width: 75%;
     }
 
+    footer {
+
+        padding-bottom: 45px;
+    }
+
     footer .arriba {
+        display: flex;
+        gap: 50px;
+
+    }
+
+    footer .topfooter {
+        display: flex;
+        gap: 70px;
+
+    }
+
+    footer h5 {
+        margin-bottom: 5px;
+    }
+
+    footer .abajo {
+        margin-top: 50px;
+    }
+
+    footer .abajo div:first-child {
+        position: absolute;
+        bottom: 550%;
+        left: 80%;
+
+    }
+
+    footer .abajo nav {
         display: flex;
     }
 }
