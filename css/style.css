@@ -269,6 +269,7 @@ h1 {
     color: gray;
     margin-left: 20px;
     padding-bottom: 20px;
+
 }
 
 .dos small a {
@@ -284,6 +285,7 @@ footer {
     color: white;
     font-family: var(--fuenteprincipal);
     padding-bottom: 5px;
+    position: relative;
 }
 
 footer i {
@@ -291,10 +293,17 @@ footer i {
     margin: 50px 0;
 }
 
+footer span {
+    position: absolute;
+    top: 6%;
+    left: 9%;
+    font-weight: bolder;
+}
+
 footer h5 {
     color: grey;
     font-weight: 500;
-    margin: 50px 0;
+    margin: 20px 0;
 }
 
 footer nav li {
@@ -365,6 +374,7 @@ footer .abajo div:last-child i {
 
 footer .abajo div:last-child p {
     margin-left: 17.5px;
+
 }
 
 
@@ -397,6 +407,11 @@ footer .abajo div:last-child p {
         display: inline;
         margin: 0 12px;
 
+    }
+
+    header nav li a:hover {
+
+        color: #1DB954;
     }
 
     header .border {
@@ -479,7 +494,52 @@ footer .abajo div:last-child p {
         width: 75%;
     }
 
+    footer {
+
+        padding-bottom: 45px;
+    }
+
     footer .arriba {
         display: flex;
+        gap: 50px;
+
     }
+
+    footer .topfooter {
+        display: flex;
+        gap: 70px;
+        transform: translateX(70px);
+        margin-top: 50px;
+
+    }
+
+    footer h5 {
+        margin-bottom: 5px;
+    }
+
+    footer .abajo {
+        margin-top: 50px;
+    }
+
+    footer .abajo div:first-child {
+        position: absolute;
+        bottom: 550%;
+        left: 80%;
+
+    }
+
+    footer .abajo nav {
+        display: flex;
+        gap: 17.5px;
+    }
+
+
+    footer span {
+
+        top: 15%;
+        left: 23%;
+
+    }
+
+
 }
