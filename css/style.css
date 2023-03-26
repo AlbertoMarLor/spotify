@@ -196,6 +196,7 @@ h1 {
     background-color: white;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.367);
     position: relative;
+    margin-bottom: 15px;
 
 }
 
@@ -206,7 +207,7 @@ h1 {
     ;
     width: 100px;
     border-radius: 2.5px;
-    padding: 5px 1px;
+    padding: 5px 3px;
     text-align: center;
     font-weight: bolder;
     margin: 20px;
@@ -224,6 +225,49 @@ h1 {
 
     margin: 10px 0 10px 20px;
 
+}
+
+.dos hr {
+    width: 91%;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.dos li {
+    margin: 10px 0 15px 20px;
+}
+
+.dos a:not(small a) {
+
+    display: block;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.851);
+    padding: 17.5px;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bolder;
+    margin: 25px auto;
+    width: 85%;
+
+}
+
+.dos a:not(small a):hover {
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.025);
+}
+
+.dos small {
+    display: block;
+    font-size: 0.75em;
+    color: gray;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+.dos small a {
+
+    color: gray;
 }
 
 /* FIN SECCION 2 */
@@ -312,5 +356,27 @@ h1 {
     .uno figure {
         display: block;
 
+    }
+
+    .dos {
+
+        padding-bottom: 80px;
+    }
+
+    .dos h2 {
+        margin-top: 40px;
+    }
+
+    .dos div>p {
+        text-align: center;
+    }
+
+    .dos .flex {
+        display: flex;
+        gap: 15px;
+    }
+
+    .dos a:not(small a) {
+        width: 75%;
     }
 }
